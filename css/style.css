@@ -60,8 +60,9 @@ h6 {
 
 
 #page-wrap {
-    width      : 1000px;
+    width: 1000px;
     margin: 0 auto;
+    margin-top: 100px;
     box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
     }
 
@@ -76,6 +77,37 @@ h6 {
     #page-wrap { width:100%; }
     
 }
+
+/* --------------------
+ * Navigation
+ * -------------------*/
+
+
+/* 
+nav {
+    
+    background-color: #ffffff;
+    width: 1000px;
+    margin-top: -105px;
+    margin-left: 0px;
+    box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
+    position: fixed;
+    z-index: 1;
+}
+
+/* Tablet Landscape 
+@media screen and (max-width: 1060px) {
+    nav { width:67%; }
+      
+}
+/* Tabled Portrait 
+@media screen and (max-width: 768px) {
+    nav { width:100%; }
+    
+}
+
+
+*/
 
 /* --------------------
  * IMG RESPONSIVE
@@ -109,13 +141,7 @@ height: 100%;
     background-color : #f9f9f9;
     }
 
-/* --------------------
- *  main Wrapper
- * -------------------*/
-#main-wrapper {
-    background : #ffffff;
-    overflow   : hidden;
-    }
+
 
 /*-------------------
  * Section Wrapper
@@ -177,3 +203,30 @@ height: 100%;
     text-align : center;
     top        : 65%;
     }
+
+/* ====================
+ * Footer
+ * ====================*/
+
+footer {
+    
+    background-color: #ffffff;
+    width: 1000px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 0px;
+    box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
+    position: absolute;
+    
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    footer { width:67%; }
+      
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    footer { width:100%; }
+    
+}

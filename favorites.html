@@ -11,43 +11,60 @@
      <!-- font-awesome -->
      <link href="css/font-awesome.min.css" rel="stylesheet">
  
-     <!-- Bootstrap -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
- 
+      <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
      <!-- Style CSS -->
      <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
+    
+   
+    
    <div id="page-wrap">
-         <img src="img/logo.svg" width="10%"> 
-                            
-                            &nbsp; 
-                            
-                            <a href="index.html">Home</a> &nbsp; 
-                            <a href="monthly.html">Recipes of the month</a> &nbsp; 
-                            <a href="favorites.html">Favorite Recipes</a> &nbsp; 
-                            <a href="contact.html">Contact</a> &nbsp; 
-                            <br /><br />
+        
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"> <img src="img/logo.svg" width="30" height="30" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="monthly.html">Recipes of the month</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="favorites.html">Favorite Recipes</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="contact.html">Contact Us</a>
+      </li>
+       
+    </ul>
+    
+  </div>
+</nav>
         
             <div class="container-fluid">
                 <div class="row">
                     
                     <div class="col-md-12">
                         <div class="section-title">
-                            
-                        
-<h1> Welcome To Cookit! &#174;</h1> 
 
-
-
-<h2> Simple and healthy recipes from breakfast to dinner</h2>
-
-<p>Here you will find the best recipes for cooking and baking!</p>
+<h1>Recipes of the month</h1>
+<p>Welcome to the page where you can find our favorite recipes of the month</p>
+<a href="#peanut">Peanut Butter Overnight Oats</a> &nbsp; 
+<a href="#carbonara">Spaghetti carbonara</a> &nbsp; 
+<a href="#cookies">Chocolate cookies</a> &nbsp; 
+ 
 <br />
 
-<h2>Recipes of the month</h2>
-<h3>Peanut Butter Overnight Oats</h3>
+<h3 id="peanut">Peanut Butter Overnight Oats</h3>
     
 <h4>Ingredients</h4>
 <ul style="list-style-type:none;">
@@ -82,7 +99,7 @@
 
 <br />
 
-<h3>Spaghetti carbonara</h3>
+<h3 id="carbonara">Spaghetti carbonara</h3>
     
 <h4>Ingredients</h4>
 <ul style="list-style-type:none;">
@@ -134,7 +151,7 @@
 
 <br />
 
-<h3>Chocolate cookies</h3>
+<h3 id="cookies">Chocolate cookies</h3>
     
 <h4>Ingredients</h4>
 <ul style="list-style-type:none;">
@@ -185,7 +202,16 @@
 <p><sup>1</sup>Dough may be chilled longer, up to several days, just keep in mind that if it sits longer than several hours it will be very firm and difficult to scoop and may need to sit at room temperature for 15 minutes or so to soften enough to scoop.
 </p>
 
+                            </div>
+                        </div>
+                            </div>
+                            </div>
+       </div>
+<!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
+                        
 </body>
 </html>
